@@ -923,7 +923,7 @@ export default Ember.Component.extend({
 
 How is this related to creating a new friend in our API? We'll
 discover that after we cover the next helper. On the **save** action
-in the component, we'll validate our model, and the if it is valid
+in the component, we'll validate our model, and then if it is valid
 call the action in the controller which will take care of calling
 **.save()**, which saves it to the API, and finally transition to a
 route where we can add new articles.
