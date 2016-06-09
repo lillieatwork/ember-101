@@ -873,7 +873,7 @@ We can create a controller using the controller generator like `ember
 g controller friends/new` and then let's add the `save` and `cancel`
 actions:
 
-{line-numbers=off, title="app/controllers/friends/new", lang=""}
+{line-numbers=off, title="app/controllers/friends/new.js", lang=""}
 ~~~~~~~~
 import Ember from 'ember';
 
