@@ -1007,7 +1007,7 @@ export default Ember.Component.extend({
 });
 ~~~~~~~~
 
-**Ember.computed**? That's new! ember allows us to create functions
+**Ember.computed**? That's new! Ember allows us to create functions
 that will be treated as properties. These are called computed
 properties. In our example, **isValid** is a **computed property**
 that depends on the properties **model.email**, **model.firstName**,
