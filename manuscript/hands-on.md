@@ -755,7 +755,7 @@ to include the component:
 {title="app/templates/friends/new.hbs", lang="handlebars"}
 ~~~~~~~~
 <h1>Adding New Friend</h1>
-{{friends/edit-form}}
+{{friends/edit-form model=model}}
 ~~~~~~~~
 
 Now if we visit **http://localhost:4200/friends/new**, the form should be displayed.
