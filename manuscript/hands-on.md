@@ -771,7 +771,7 @@ In **app/templates/friends/new.hbs** we used
 {{friends/edit-form model=model}}
 ~~~~~~~~
 
-This is how components are render, we'll have a whole section to talk
+This is how components are rendered. We'll have a whole section to talk
 about components, but for now let's say that they are isolated
 "templates", they don't know anything about the context surrounding
 them, so we need to pass down all the necessary data for it to display
