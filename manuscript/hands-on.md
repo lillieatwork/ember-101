@@ -1694,7 +1694,8 @@ our templates.
 ### The header
 
 We'll use components to simplify our templates.  In this case, we'll
-component contains the code for the navigation bar. Let's create a component call `nav-bar` and add the following content:
+add a component to contain the code for the navigation bar. 
+Let's create a component call `nav-bar` and add the following content:
 
 {title="app/templates/components/nav-bar.hbs", lang="handlebars"}
 ~~~~~~~~
