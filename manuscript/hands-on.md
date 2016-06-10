@@ -1887,7 +1887,7 @@ all articles and the other one to add new ones.
 ~~~~~~~~
 
 After adding this, we'll see an error in the console because we
-haven't created yet the route for now articles.
+haven't created yet the route for new articles.
 
 Let's create the routes for creating, editing and showing
 articles. They will be very similar to what we did for friends.
