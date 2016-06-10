@@ -1683,8 +1683,9 @@ the following ones are new to us since we have never passed any option
 to **import**.
 
 The option **destDir** tells **ember CLI** that we want to put those
-files under a directory called **assets/font**. If we save and refresh our
-browser, **vendor.css** should now include **fontello.css**.
+files under a directory called **assets/font**. If we save the file,
+restart the Ember server, and refresh our browser, **vendor.css** 
+should now include **fontello.css**.
 
 With that, we know the basics of including vendor files. Now that we
 have our basic dependencies on hand, let's improve the appearance of
